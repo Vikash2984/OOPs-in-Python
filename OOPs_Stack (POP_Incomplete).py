@@ -22,7 +22,7 @@ class LinkedList:
         return self.__tail
     def set_tail(self, node):
         self.__tail = node
-
+        
     def push(self, info):
         # if the stack does not pre-exist then create a stack
         # otherwise insert an element on top of the stack
@@ -40,14 +40,13 @@ class LinkedList:
         while (ptr is not None):
             print (ptr.get_data(), end = "\n")
             ptr = ptr.get_next()
-
     def peek(self):
         ptr = self.get_tail()
         print(f"{ptr.get_data()} is on top of the stack")
 
 
-
-
+#Yet to be defined :-
+#_____________________________________________________________________________________________________________________________________________#
     def pop(self):
         ptr = self.get_tail()
         if (self.get_head() == None):
@@ -56,7 +55,7 @@ class LinkedList:
             #set element prior to ptr as tail
             print (f"\nPoped element : {ptr.get_data()}")
             del(ptr)
-
+#_____________________________________________________________________________________________________________________________________________#
 
     
 # Defining class object stack under LinkedList class
