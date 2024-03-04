@@ -1,3 +1,4 @@
+#Hybrid class
 # class Base:
 #     def __init__(self):
 #         print ("Base: Constructor method is executing...")
