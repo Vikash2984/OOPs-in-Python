@@ -1,3 +1,4 @@
+# Implementing Stack using a Linkedlist class 
 class Node:
     def __init__(self, info):
         self.__data = info
