@@ -1,3 +1,4 @@
+# Creating a Linkedlist as a Python class object 
 class Node:
     def __init__(self, info):
         self.__data = info
